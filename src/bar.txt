@@ -1,0 +1,3 @@
+This is line #1 of bar.txt
+This is line #2 of bar.txt
+This is line #3 of bar.txt
