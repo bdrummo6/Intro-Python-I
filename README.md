@@ -65,8 +65,8 @@ The suggested order for going through each of the directories is:
 - [X] `modules` -- Learn to import from modules
 - [X] `printing` -- Formatted print output
 - [X] `lists` -- Python's version of arrays
-- [ ] `tuples` -- Immutable lists typically for heterogeneous data
-- [ ] `slices` -- Accessing parts of lists
+- [X] `tuples` -- Immutable lists typically for heterogeneous data
+- [X] `slices` -- Accessing parts of lists
 - [ ] `comprehensions` -- List comprehensions
 - [ ] `dictionaries` -- Dictionaries
 - [ ] `functions` -- Functions
@@ -74,7 +74,7 @@ The suggested order for going through each of the directories is:
 - [ ] `scopes` -- Global, Local, and Non-Local scope
 - [ ] `file_io` -- Read and write from files
 - [ ] `cal` -- Experiment with module imports and implement a text-based calendar
-* `classes` -- Classes and objects
+- [ ] `classes` -- Classes and objects
 
 ## Stretch Goals
 
