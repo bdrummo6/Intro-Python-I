@@ -72,7 +72,7 @@ The suggested order for going through each of the directories is:
 - [X] `functions` -- Functions
 - [X] `args` -- Arguments and Keyword Arguments
 - [X] `scopes` -- Global, Local, and Non-Local scope
-- [ ] `file_io` -- Read and write from files
+- [X] `file_io` -- Read and write from files
 - [ ] `cal` -- Experiment with module imports and implement a text-based calendar
 - [ ] `classes` -- Classes and objects
 
