@@ -48,7 +48,8 @@ waypoints.append({
 # Note: It's okay to access the dictionary using bracket notation on the
 # waypoints list.
 
-waypoints[0] = {'lat': 43, 'lon': -130, 'name': 'not a real place'}
+waypoints[0]['lon'] = -130
+waypoints[0]['name'] = 'not a real place'
 
 # print(waypoints)
 
