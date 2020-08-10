@@ -38,11 +38,8 @@ print(f2(*a))    # Should print 22
 # Note: Google "python default arguments" for a hint.
 
 
-def f3(num3, num4=None):
-    if num4 is None:
-        return num3 + 1
-    else:
-        return num3 + num4
+def f3(num3, num4=1):
+    return num3 + num4
 
 
 print(f3(1, 2))  # Should print 3
