@@ -7,7 +7,7 @@ the list should be populated.
 Take a look at https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
 for more info regarding list comprehensions.
 """
-# output look conditional
+# output loop conditional
 
 # Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 
