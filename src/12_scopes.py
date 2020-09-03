@@ -2,6 +2,12 @@
 # Good reading: https://www.programiz.com/python-programming/global-local-nonlocal-variables
 
 # When you use a variable in a function, it's local in scope to the function.
+
+# global: module
+# local: functions
+# nonlocal (enclosing): nested functions
+# builtin: built-in python functions
+
 x = 12
 
 def change_x():
@@ -9,7 +15,7 @@ def change_x():
     x = 99
 
 
-change_x()
+change_x()  # Calling function sets global x value to 99 once declaring x global within change_x()
 
 # This prints 12. What do we have to modify in change_x() to get it to print 99?
 # Declare x as global in the function definition and set it to 99
@@ -19,10 +25,10 @@ print(x)
 # This nested function has a similar problem.
 
 def outer():
-    y = 120
+    y = 120  # nonlocal (enclosing) scope
 
     def inner():
-        nonlocal y
+        nonlocal y  # Changes scope to nonlocal (enclosing)
         y = 999
 
     inner()
