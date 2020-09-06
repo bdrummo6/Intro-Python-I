@@ -24,7 +24,7 @@ waypoints.push({
     "name": "brad's added place"
 })
 
-// print(waypoints)
+// console.log(waypoints)
 
 // Modify the dictionary with name "a place" such that its longitude
 // value is -130 and change its name to "not a real place"
@@ -34,10 +34,10 @@ waypoints.push({
 waypoints[0]['lon'] = -130
 waypoints[0]['name'] = 'not a real place'
 
-// print(waypoints)
+// console.log(waypoints)
 
 // Write a loop that prints out all the field values for all the waypoints
 // YOUR CODE HERE
-for(let i = 0; i < waypoints.length - 1; i++) {
+for(let i = 0; i < waypoints.length; i++) {
     console.log(waypoints[i].lat, waypoints[i].lon, waypoints[i].name)
 }
