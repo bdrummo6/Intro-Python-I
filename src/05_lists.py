@@ -11,8 +11,8 @@ x.append(4)
 print(x)
 
 # Using y, change x so that it is [1, 2, 3, 4, 8, 9, 10]
-# for i in y:
-#    x.append(i)
+# for n in y:
+#    x.append(n)
 # print(x)
 x.extend(y)
 print(x)
@@ -29,5 +29,5 @@ print(x)
 print(len(x))
 
 # Print all the values in x multiplied by 1000
-for i in x:
-    print(i * 1000)
+for n in x:
+    print(n * 1000)

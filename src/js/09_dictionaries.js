@@ -38,6 +38,6 @@ waypoints[0]['name'] = 'not a real place'
 
 // Write a loop that prints out all the field values for all the waypoints
 // YOUR CODE HERE
-for(let i = 0; i < waypoints.length; i++) {
+for(let i in waypoints) {
     console.log(waypoints[i].lat, waypoints[i].lon, waypoints[i].name)
 }
