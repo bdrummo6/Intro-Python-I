@@ -10,7 +10,7 @@ def f1(num1, num2):
     return num1 + num2
 
 
-print(f1(1, 2))
+print(f1(1, 2))  # Should print 3
 
 
 # Write a function f2 that takes any number of integer arguments and returns the

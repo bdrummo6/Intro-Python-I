@@ -33,7 +33,7 @@ from datetime import datetime
 
 args = sys.argv
 
-if len(args) < 2:
+if len(args) == 1:
     print(calendar.month(datetime.today().year, datetime.today().month))
 elif len(args) == 2:
     print(calendar.month(datetime.today().year, int(args[1])))

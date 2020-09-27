@@ -10,15 +10,16 @@ import sys
 
 
 # Print out the command line arguments in sys.argv, one per line:
+# Prints the path to this file 03_module.py
 for arg in sys.argv:
     print(arg)
 
 
 # Print out the OS platform you're using:
-print(sys.platform)
+print(sys.platform)  # Prints win32
 
 # Print out the version of Python you're using:
-print(sys.version)
+print(sys.version)  # 3.8.5
 
 
 import os
